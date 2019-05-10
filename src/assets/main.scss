@@ -1,0 +1,27 @@
+@import './scss/variables';
+@import './scss/searchscreen';
+@import './scss/globals';
+@import './scss/buttons';
+@import './scss/results';
+@import './scss/header';
+@import './scss/uicomponents';
+
+.ant-layout-content {
+  padding: 100px 180px;
+  min-height: 100vh !important;
+}
+
+.ant-layout-header {
+  position: fixed !important;
+  z-index: 1;
+  width: 100%;
+}
+
+@media screen and (max-width: 808px) {
+  .ant-layout-header {
+    padding: 0px 10px !important;
+  }
+  .ant-layout-content {
+    padding: 0 !important;
+  }
+}

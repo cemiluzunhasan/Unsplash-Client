@@ -1,0 +1,58 @@
+.search-container {
+  background-color: $darkblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  .ant-form {
+    width: 100%;
+  }
+
+  .ant-form-item {
+    &-children {
+      width: 400px;
+      display: flex;
+      justify-content: center;
+    }
+    &-control {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .logo {
+    margin-bottom: 5px;
+
+    &-text {
+      margin-bottom: 50px;
+    }
+  }
+
+  .app-name {
+    color: $white;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .search-container {
+    height: 100% !important;
+    overflow-y: hidden !important;
+    scroll-behavior: smooth;
+    padding: 0 30px;
+  }
+  .ant-form-item {
+    display: block !important;
+    &-children {
+      width: 80%;
+    }
+  }
+
+  .search-input {
+    width: 100% !important;
+  }
+}

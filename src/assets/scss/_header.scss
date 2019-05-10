@@ -1,0 +1,39 @@
+
+.ant-layout-header {
+  height: 80px !important;
+  display: flex;
+  align-items: center;
+
+  .ant-form {
+    display: flex;
+    align-items: center;
+  }
+  .ant-form-item {
+    display: inline-block;
+    margin-bottom: 0px !important;
+  }
+
+  .search-input {
+    height: 40px !important;
+    width: 400px !important;
+    margin-right: 30px;
+  }
+
+  .logo-header {
+    width: 40px !important;
+    margin-right: 100px;
+  }
+
+  .btn-base {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .ant-form {
+    width: 100%;
+  }
+  .logo-header {
+    display: none;
+  }
+}

@@ -1,0 +1,37 @@
+.btn-base {
+  width: 246px;
+  height: 50px !important;
+  border-radius: 25px !important;
+  background-color: $navyblue !important;
+  color: $white !important;
+  border: none !important;
+  font-weight: 700 !important;
+}
+
+.btn-download {
+  display: flex;
+  align-items: center;
+  position: relative !important;
+
+  height: 60px !important;
+  width: 200px;
+
+  float: right;
+  border: 2px solid $navyblue !important;
+  border-radius: 10px !important;
+  color: $navyblue !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+
+  img {
+    position: absolute !important;
+    left: 20px;
+    top: 19px;
+    width: 20px !important;
+    height: 20px !important;
+  }
+  span {
+    position: relative;
+    left: 12px;
+  }
+}

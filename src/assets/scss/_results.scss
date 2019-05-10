@@ -1,0 +1,67 @@
+.my-gallery-class {
+  padding: 0 !important;
+}
+
+.image-element-class {
+  list-style-type: none;
+  width: 33% !important;
+
+  img {
+    margin: 20px;
+  }
+}
+
+.ant-pagination {
+  display: inline-block;
+  float: right !important;
+  padding: 0 30px !important;
+}
+
+.ant-modal-body {
+  h2 {
+    position: relative;
+    top: 7px;
+  }
+
+  h3 {
+    color: $navyblue;
+  }
+}
+.user {
+  &-avatar {
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px;
+  }
+}
+
+.google-map {
+  height: 260px;
+  border-radius: 10px;
+}
+
+.location {
+  &-info {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  &-icon {
+    width: 13px !important;
+    height: 16px;
+  }
+}
+
+.marker {
+  width: 30px !important;
+  height: 40px !important;
+  position: absolute;
+  top: -100px;
+}
+
+@media screen and (max-width: 768px) {
+  .image-element-class {
+    img {
+      display: block !important;
+    }
+  }
+}

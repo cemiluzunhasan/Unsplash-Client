@@ -1,0 +1,39 @@
+.ant-select-selection-menu-item {
+  height: 50px !important;
+}
+
+.search-input {
+  width: $input-width;
+  height: $input-height !important;
+  border-radius: 4px !important;
+  font-size: 14px;
+  font-weight: 700;
+
+  &::placeholder, .ant-select-selection__placeholder {
+    font-weight: 300;
+  }
+
+  .ant-select-selection {
+    height: 100%;
+
+    &__rendered {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+.ant-modal {
+  width: 940px !important;
+
+  img {
+    width: 100%;
+  }
+  .ant-modal-footer {
+    display: none;
+  }
+  .ant-modal-close {
+    display: none;
+  }
+}
